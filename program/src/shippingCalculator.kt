@@ -21,6 +21,6 @@ fun main(args: Array<String>) {
     print("International (true/false) : ")
     val  international = readLine()!!.toBoolean()
     println("------------------------------------------------")
-    print("Shipping Cost : ")
+    print("Shipping Cost : \$")
     println(shippingCost(total, international))
 }
